@@ -156,7 +156,7 @@ looker.plugins.visualizations.add({
           'type': 'Feature',
           'geometry': {
             'type': 'Point',
-            'coordinates': [el['users.approx_longitude'].value, el['users.approx_latitude'].value]
+            'coordinates': el['risk_events.location'].value
           },
 
           'properties': {
